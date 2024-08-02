@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #400101;
-    color: #BF6374;
+    background-color: #013440;
+    color: #038C7F;
 }
 
 header {
-    background-color: #73332D;
-    color: white;
+    background-color: #038C8C;
+    color: sherpa blue;
     padding: 20px 0;
     text-align: center;
 }
@@ -25,7 +25,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: sherpa blue;
     text-decoration: none;
     font-weight: bold;
 }
@@ -34,12 +34,12 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: white;
+    background-color: sherpa blue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #038C7F;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -49,14 +49,14 @@ h2 {
 }
 
 .project a {
-    color: #73332D;
+    color: #038C8C;
     text-decoration: none;
     font-weight: bold;
 }
 
 footer {
-    background-color: #BF6374;
-    color: white;
+    background-color: #038C8C;
+    color: sherpa blue;
     text-align: center;
     padding: 10px 0;
     position: fixed;
