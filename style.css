@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #CECCCD; /* Cor mais clara da paleta */
-    color: #0F0F41; /* Cor mais escura da paleta */
+    background-color: #F1FAEE; /* Cor mais clara da paleta */
+    color: #1D3557; /* Cor mais escura da paleta */
 }
 
 header {
-    background-color: #6ECDE9; /* Azul claro da paleta */
+    background-color: #457B9D; /* Azul claro da paleta */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -34,12 +34,12 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background-color: #A2A2E9; /* Azul suave da paleta */
+    background-color: #A8DADC; /* Azul suave da paleta */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    border-bottom: 2px solid #0F0F41; /* Cor escura da paleta */
+    border-bottom: 2px solid #1D3557; /* Cor escura da paleta */
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -49,15 +49,15 @@ h2 {
 }
 
 .project h3 {
-    color: #6ECDE9; /* Azul claro da paleta */
+    color: #457B9D; /* Azul claro da paleta */
 }
 
 .project p {
-    color: #0F0F41; /* Cor escura da paleta */
+    color: #1D3557; /* Cor escura da paleta */
 }
 
 .project a {
-    color: #F074A8; /* Cor de destaque da paleta */
+    color: #E63946; /* Cor de destaque da paleta */
     text-decoration: none;
     font-weight: bold;
 }
@@ -67,7 +67,7 @@ h2 {
 }
 
 footer {
-    background-color: #6ECDE9; /* Azul claro da paleta */
+    background-color: #457B9D; /* Azul claro da paleta */
     color: white;
     text-align: center;
     padding: 15px 0;
