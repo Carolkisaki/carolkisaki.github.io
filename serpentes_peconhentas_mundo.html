@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="serpentes_peconhentas_mundo.html">Projeto 1 - Distribuição Mundial das Serpentes Peçonhentas</a></li>
+							<li><a href="Relatorio_de_Desempenho__Marketing.html">Projeto 2 - Relatório Desempenho de Marketing</a></li>
+							<li><a href="Enchentes_e_Urbanização_no_Bairro_do_Limão.html">Projeto 3 - Enchentes e Urbanização no Bairro do Limão</a></li>
+							<li><a href="curriculo.html">Currículo</a></li>
+						</ul>
+						</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Análise da distribuição das espécies de serpentes peçonhentas pelo mundo.</h1>
+							</header>
+							<div class="content">
+								<p>Este projeto fornece uma análise detalhada da distribuição e classificação global de serpentes peçonhentas e não peçonhentas, 
+								destacando diferenças por continente e famílias</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>1. Introdução</h2>
+									</header>
+									<p> As serpentes são animais que despertam tanto medo quanto admiração. São animais que se adaptam a todos os ambientes
+										que lhe possibilitem viver, seja em terra, no subsolo, sobre rochas, árvores, rios, lagos, estuários e até mesmo noa rios.</p>
+										<p>Divididas em duas categorias principais — peçonhentas e não peçonhentas — 
+										que desempenham papéis vitais em nossos ecossistemas.
+										As serpentes peçonhentas possuem glândulas que produzem peçonha, uma poderosa ferramenta para imobilizar, matar e iniciar a digestão das presas (PÉTERFI, O. et al., 2019), 
+										enquanto as não peçonhentas dependem da força física ou da camuflagem para capturar suas presas.</p>
+										<p>Compreender a classificação e a distribuição dessas serpentes é crucial para promover a conservação, reconhecer padrões de distribuição, e a segurança em diversas regiões do mundo (MARQUES, O.,2019).</p>
+										<p>O objetivo deste projeto é realizar uma análise detalhada sobre a distribuição global das serpentes peçonhentas e não peçonhentas, com base em um dataset que inclui informações sobre espécies e localizações geográficas.
+										A análise será feita utilizando SQL para consultas de dados, Python para análise exploratória e visualização, e Power BI para construir dashboards interativos.
+										<p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="inner">
+								<section>
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>2. Coleta e Tratamento de Dados</h3>
+											</header>
+										<p>A base de dados para realizadar essa análise global foi retirada diretamente do Kaggle, uma plataforma para aprendizado de Ciências de Dados e para a evolução na programação em Python</p>
+										<li><a href="https://www.kaggle.com/datasets/nikhilshingadiya/sample-0">Tabela .csv</a></li>
+										<p>
+										<p>Os dados foram tratados, eliminando-se primeiro as duplicatas e as colunas de Identificador único universal (UUID), image_path e uuid_image.
+										A coluna "poisonus" foi editada, pois o autor do banco de dados classificou as serpentes peçonhentas como número 1, e as não peçonhentas como número 2.
+										Apenas alterei para melhor visualização na hora de criar os gráficos e legendas.
+										<p>
+											</div>
+									</div>
+									<div class="inner">
+											<header class="major">
+												<h3>3. Resultados e Discussão</h3>
+											</header>
+										<p> Dashboard via Power BI 
+										<p><iframe title="Distribuição Global_ Análise de Espécies Peçonhentas e Não Peçonhentas" width="1000" height="573.5" src="https://app.powerbi.com/view?r=eyJrIjoiMWIwMjU1OTktMzM0MC00NzFmLTkyNDUtNjExMjQ3YjAwMGY0IiwidCI6IjZjYmI5Y2Y3LWI0YzQtNGVmZC04NjVlLWFmYzRhYWM1ZmIxYSJ9" frameborder="0" allowFullScreen="true"></iframe>
+										<p>
+										<h4><strong>3.1. Diversidade e Distribuição Geográfica</strong></h4>
+										<p>O dashboard revela que as espécies de serpentes peçonhentas e não peçonhentas estão amplamente distribuídas por todos os continentes, com uma maior diversidade concentrada na África e Ásia. 
+										Esses continentes apresentam a maior quantidade de famílias de serpentes, com destaque para as famílias Colubridae e Viperidae, que são as mais presentes em diversas regiões.
+										A presença massiva de serpentes na África e na Ásia pode estar associada à diversidade de habitats, que vão desde desertos até florestas tropicais, fornecendo uma ampla gama de nichos ecológicos.
+										<p>
+										<h4><strong>3.2. Prevalência entre Serpentes Peçonhentas e Não peçonhentas</strong></h4>
+										<p>Globalmente, existe uma maior incidência de espécies não peçonhentas. No entanto, há variações significativas entre os continentes. 
+										Por exemplo, a África e a Ásia possuem um número elevado de espécies peçonhentas, o que pode ser correlacionado com a diversidade de habitats e as condições ecológicas desses continentes.
+										A prevalência de espécies não peçonhentas sobre as peçonhentas é uma observação importante que desafia a percepção comum de que a maioria das serpentes são perigosas para os humanos. 
+										No entanto, a alta concentração de serpentes peçonhentas em certas regiões, como África e Ásia, é crucial para estudos epidemiológicos e para o desenvolvimento de políticas de saúde pública, especialmente em áreas rurais onde os encontros com essas espécies são mais prováveis.
+										<p>
+										<h4><strong>3.3. Diversidades de Famílias por Continente</strong></h4>
+										O gráfico que compara as famílias de serpentes por continente indica que:
+										- Colubridae é a família mais diversa e amplamente distribuída, predominando em continentes como América do Norte, Ásia e Europa.
+										- Viperidae tem uma presença notável na África e Ásia, sugerindo a adaptação dessas espécies a climas tropicais e subtropicais.
+										- Famílias como Boidae e Pythonidae têm distribuição mais restrita, predominando em regiões específicas como a América do Sul e Oceania.
+										A dominância da família Colubridae em vários continentes pode ser atribuída à sua capacidade de se adaptar a uma vasta gama de habitats. Em contrapartida, a especialização das famílias Viperidae e Pythonidae em climas específicos sugere uma evolução adaptativa significativa, permitindo que essas famílias prosperem em ambientes particulares. 
+										Essa diversidade também pode estar relacionada às estratégias de sobrevivência e reprodução dessas espécies.
+										<p>
+										</div>
+									</div>
+								</section>
+								<section>
+										<div class="inner">
+											<header class="major">
+												<h3>4. Conclusão</h3>
+											</header>
+											<p>Este dashboard fornece uma visão geral valiosa, mas há espaço para aprofundamentos. Estudos futuros poderiam focar na correlação entre a distribuição de serpentes peçonhentas e não peçonhentas com fatores climáticos, padrões de urbanização e mudanças ambientais globais. 
+										Além disso, investigações sobre as características genéticas que permitem a adaptação dessas espécies em diferentes continentes poderiam proporcionar insights mais detalhados sobre a evolução das serpentes.</p>
+										</div>
+									</div>
+								</section>
+							</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://github.com/Carolkisaki" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/carolina-kisaki/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
